@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.TranslucentNavigation">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="@color/colorPrimaryLight">#CFD8DC</item>
+        <item name="colorAccent">#00897b</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#727272</item>
+        <item name="@color/colorIcons">#FFFFFF</item>
+        <item name="@color/colorIconsLight">#b2ebf2</item>
+        <item name="@color/colorDivider">#B6B6B6</item>
+        <item name="android:windowBackground">@drawable/main_background</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="AppTheme.MainWidget">
+        <item name="android:elevation">5dp</item>
+        <item name="android:background">@drawable/main_widgets</item>
+    </style>
+
+    <style name="AppTheme.MainContainer">
+        <item name="android:background">@drawable/main_container</item>
+    </style>
+</resources>

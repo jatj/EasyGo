@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abraham.proyectotema.home">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:layout_gravity="center">
+
+                <TextClock
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clock"
+                    android:format12Hour="hh:mm"
+                    android:layout_margin="2dp"
+                    android:textSize="50sp"
+                    android:visibility="visible" />
+
+                <TextClock
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ampm"
+                    android:textSize="20sp"
+                    android:layout_gravity="bottom"
+                    android:format12Hour="a"
+                    android:textColor="@color/colorIcons" />
+            </LinearLayout>
+
+            <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/GridLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:rowCount="2"
+                android:orientation="horizontal"
+                tools:context=".GridXMLActivity"
+                android:layout_span="1">
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnWifi"
+                    android:src="@drawable/wifi_on"
+                    android:tint="@color/colorIcons"
+                    android:layout_margin="2dp"
+                    android:layout_gravity="left|top"
+                    style="@style/AppTheme.MainWidget" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnBT"
+                    android:tint="@color/colorIcons"
+                    android:src="@drawable/bluetooth_on"
+                    android:layout_margin="2dp"
+                    android:layout_gravity="left|top"
+                    style="@style/AppTheme.MainWidget" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnGPS"
+                    android:tint="@color/colorIcons"
+                    android:src="@drawable/gps_on"
+                    android:layout_margin="2dp"
+                    android:layout_gravity="left|top"
+                    style="@style/AppTheme.MainWidget" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/btnConfig"
+                    android:tint="@color/colorIcons"
+                    android:src="@drawable/config"
+                    android:layout_margin="2dp"
+                    android:layout_gravity="left|top"
+                    style="@style/AppTheme.MainWidget" />
+            </GridLayout>
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bright"
+            android:max="100"
+            android:tint="@color/colorIcons"
+            android:thumb="@drawable/bright"
+            android:progressDrawable="@drawable/progressbar"
+            android:layout_marginTop="10dp"
+            android:indeterminate="false"
+            android:progress="0" />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnMaps"
+                    style="@style/AppTheme.MainContainer"
+                    android:src="@drawable/route"
+                    android:padding="20dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnMusic"
+                    style="@style/AppTheme.MainContainer"
+                    android:src="@drawable/headphones"
+                    android:padding="20dp" />
+            </FrameLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnPhone"
+                    style="@style/AppTheme.MainContainer"
+                    android:src="@drawable/phone"
+                    android:padding="20dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnVoice"
+                    style="@style/AppTheme.MainContainer"
+                    android:src="@drawable/microphone"
+                    android:padding="20dp" />
+            </FrameLayout>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

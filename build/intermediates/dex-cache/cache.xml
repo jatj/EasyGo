@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.0_e581116f4e68c2150ed32fa8cc883001ac3cf74e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.0_10e770d30e4a884577ea0dfe923aa677e23693ff\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.0_ef5a0f38afc22203e8b28acb226253a2246c0b31\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\design\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.0_8c985acb9f09b379313f579522b12884557cb791\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="71f773a287c672294340f312806c1694b4be9d09">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_69309b8a893eefea0bd289628758a059b2943a5e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.0_ee1c79327f5d369893f3f5f3b1d5f8c35bf4ccb1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d82ec5b97208b98a9377560f3e481760dd078204">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c3849b4ce16abd7409f281b66d6b673943c4416f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.0_f0d1ced5141fafc05078425cb833f2926d8ae2a7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\libs\internal_impl-24.1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.0_a0c08b5c728cd5d551bba0cec762e3ea7cfbb77f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="C:\Users\abrah\AndroidStudioProjects\proyectoTema\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.0_1a57f72f564b7e96c9ceecb14075f0eb4841c4ad\classes.dex" />
+    </item>
+
+</items>

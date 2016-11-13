@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abraham.proyectotema.config"
+    tools:showIn="@layout/activity_config">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Musica:"
+                android:id="@+id/txtSelectMusic"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="25sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right">
+
+                <Button
+                    style="@style/AppTheme.MainContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asignar"
+                    android:id="@+id/btnSlctMusic"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapas:"
+                android:id="@+id/txtSelectMaps"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="25sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right">
+
+                <Button
+                    style="@style/AppTheme.MainContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asignar"
+                    android:id="@+id/btnSlctMaps"
+                    android:textSize="20sp" />
+            </FrameLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Casa:"
+                android:id="@+id/txtSelectHouse"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="25sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right">
+
+                <Button
+                    style="@style/AppTheme.MainContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asignar"
+                    android:id="@+id/btnSlctHouse"
+                    android:textSize="20sp" />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button
+            style="@style/AppTheme.MainContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar cambios"
+            android:id="@+id/btnSavePreferences"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+</LinearLayout>
